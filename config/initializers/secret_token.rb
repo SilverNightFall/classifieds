@@ -22,4 +22,4 @@ def secure_token
   end 
 end
 
-Classifieds::Application.config.secret_key_base = 'b30cac13c1af1867faacf9246dde01b5fd57f920a3f3af93a96e29832052f44aff543847067f95f1ee56df5973e1b175bff9ad945969c335e967d385a798604c'
+Classifieds::Application.config.secret_key_base = secure_token
